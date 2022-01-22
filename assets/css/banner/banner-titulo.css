@@ -1,4 +1,4 @@
-/* .banner__titulo{
+ .banner__titulo{
     font-family: Pacifico,cursive;
     color: #fefefe;
     font-size: 5.0625rem;
@@ -9,29 +9,40 @@
     text-align: center;
     transform: translate(-50%,-50%);
     width: 100%;
-} */
-.banner{
+} 
+/* .banner{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
+} */
 
-.banner__titulo{
+/* .banner__titulo{
     font-family: Pacifico,cursive;
     color: #fefefe;
     font-size: 5.0625rem;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
     transform: translateY(-600%)
     
-}
+} */
 
-@media screen  and (max-width:768px){
+
+ @media screen  and (max-width:480px){
+    .banner__titulo{
+        font-size: 2rem;
+        /* transform: translate(20%,-120%) */
+        
+
+    }
+    
+} 
+@media screen  and (min-width:768px){
     .banner__titulo{
         font-size: 3rem;
-        transform: translate(20%,-120%)
+        /* transform: translate(0%,-190%) */
         
 
     }
     
 }
+
 

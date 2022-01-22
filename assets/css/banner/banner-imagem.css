@@ -7,15 +7,15 @@
 
 }
 
-@media screen and ( min-width:0px){
+@media screen and ( max-width:480px){
     .banner__imagem{
-        height: calc(100vh -51px)
+        height: calc(100vh - 48px)
     }
     
 }
 
-@media screen and (min-width:768px) {
+@media screen and (max-width:768px) {
     .banner__imagem{
-        height: calc(100vh -72px)
+        height: calc(100vh - 72px)
     }
 }
