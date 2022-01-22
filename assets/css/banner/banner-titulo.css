@@ -1,4 +1,4 @@
-.banner__titulo{
+/* .banner__titulo{
     font-family: Pacifico,cursive;
     color: #fefefe;
     font-size: 5.0625rem;
@@ -9,14 +9,29 @@
     text-align: center;
     transform: translate(-50%,-50%);
     width: 100%;
+} */
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+.banner__titulo{
+    font-family: Pacifico,cursive;
+    color: #fefefe;
+    font-size: 5.0625rem;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    transform: translateY(-600%)
+    
+}
 
 @media screen  and (max-width:768px){
     .banner__titulo{
-        font-size: 2rem;
-        text-align: center;
+        font-size: 3rem;
+        transform: translate(20%,-120%)
+        
 
     }
+    
 }
 
